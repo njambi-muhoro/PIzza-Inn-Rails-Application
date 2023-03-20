@@ -6,4 +6,5 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+  post '/restaurant_pizzas', to: 'restaurant_pizzas#create'
 end
